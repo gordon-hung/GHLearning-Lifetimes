@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.Lifetimes.ApiService", "src\GHLearning.Lifetimes.ApiService\GHLearning.Lifetimes.ApiService.csproj", "{5AC1220F-0C22-10B5-AE0B-EF34CB3EA1A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.Lifetimes.Core", "src\GHLearning.Lifetimes.Core\GHLearning.Lifetimes.Core.csproj", "{F649D0C7-EC99-6831-37C3-BFC05BA52FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.Lifetimes.Repositories", "src\GHLearning.Lifetimes.Repositories\GHLearning.Lifetimes.Repositories.csproj", "{275153FF-CFE9-BE5D-61F8-052638DA6535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.Lifetimes.Services", "src\GHLearning.Lifetimes.Services\GHLearning.Lifetimes.Services.csproj", "{4C8864DA-6446-C949-D384-70AAFB3258E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.Lifetimes.Migrations", "src\GHLearning.Lifetimes.Migrations\GHLearning.Lifetimes.Migrations.csproj", "{F93E6CFC-AD30-456E-8B01-B71358BF7AF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{43F2EA3A-C4DF-477D-995E-4FFE789CB8C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.Lifetimes.RepositoriesTests", "test\GHLearning.Lifetimes.RepositoriesTests\GHLearning.Lifetimes.RepositoriesTests.csproj", "{3DD23F82-72C2-4312-AD3D-9E536E6FAD91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.Lifetimes.ServicesTests", "test\GHLearning.Lifetimes.ServicesTests\GHLearning.Lifetimes.ServicesTests.csproj", "{ADB7881E-95A9-47B8-A15B-F2567A99D220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.Lifetimes.IntegrationTests", "test\GHLearning.Lifetimes.IntegrationTests\GHLearning.Lifetimes.IntegrationTests.csproj", "{93ECC004-6FF4-4980-A9C9-81251B866DE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AC1220F-0C22-10B5-AE0B-EF34CB3EA1A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC1220F-0C22-10B5-AE0B-EF34CB3EA1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC1220F-0C22-10B5-AE0B-EF34CB3EA1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC1220F-0C22-10B5-AE0B-EF34CB3EA1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F649D0C7-EC99-6831-37C3-BFC05BA52FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F649D0C7-EC99-6831-37C3-BFC05BA52FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F649D0C7-EC99-6831-37C3-BFC05BA52FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F649D0C7-EC99-6831-37C3-BFC05BA52FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{275153FF-CFE9-BE5D-61F8-052638DA6535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{275153FF-CFE9-BE5D-61F8-052638DA6535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{275153FF-CFE9-BE5D-61F8-052638DA6535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{275153FF-CFE9-BE5D-61F8-052638DA6535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C8864DA-6446-C949-D384-70AAFB3258E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8864DA-6446-C949-D384-70AAFB3258E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8864DA-6446-C949-D384-70AAFB3258E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8864DA-6446-C949-D384-70AAFB3258E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93E6CFC-AD30-456E-8B01-B71358BF7AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93E6CFC-AD30-456E-8B01-B71358BF7AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93E6CFC-AD30-456E-8B01-B71358BF7AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93E6CFC-AD30-456E-8B01-B71358BF7AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD23F82-72C2-4312-AD3D-9E536E6FAD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD23F82-72C2-4312-AD3D-9E536E6FAD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD23F82-72C2-4312-AD3D-9E536E6FAD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD23F82-72C2-4312-AD3D-9E536E6FAD91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB7881E-95A9-47B8-A15B-F2567A99D220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB7881E-95A9-47B8-A15B-F2567A99D220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB7881E-95A9-47B8-A15B-F2567A99D220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB7881E-95A9-47B8-A15B-F2567A99D220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93ECC004-6FF4-4980-A9C9-81251B866DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93ECC004-6FF4-4980-A9C9-81251B866DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93ECC004-6FF4-4980-A9C9-81251B866DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93ECC004-6FF4-4980-A9C9-81251B866DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5AC1220F-0C22-10B5-AE0B-EF34CB3EA1A3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F649D0C7-EC99-6831-37C3-BFC05BA52FAA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{275153FF-CFE9-BE5D-61F8-052638DA6535} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4C8864DA-6446-C949-D384-70AAFB3258E6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F93E6CFC-AD30-456E-8B01-B71358BF7AF7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3DD23F82-72C2-4312-AD3D-9E536E6FAD91} = {43F2EA3A-C4DF-477D-995E-4FFE789CB8C3}
+		{ADB7881E-95A9-47B8-A15B-F2567A99D220} = {43F2EA3A-C4DF-477D-995E-4FFE789CB8C3}
+		{93ECC004-6FF4-4980-A9C9-81251B866DE4} = {43F2EA3A-C4DF-477D-995E-4FFE789CB8C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDA4BFB8-89F9-41ED-9D68-21B9A1E58077}
+	EndGlobalSection
+EndGlobal

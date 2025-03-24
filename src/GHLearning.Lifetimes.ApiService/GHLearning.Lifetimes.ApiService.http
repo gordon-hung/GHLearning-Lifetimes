@@ -1,0 +1,6 @@
+@GHLearning.Lifetimes.ApiService_HostAddress = http://localhost:5204
+
+GET {{GHLearning.Lifetimes.ApiService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
